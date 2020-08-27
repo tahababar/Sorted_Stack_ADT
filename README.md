@@ -1,2 +1,5 @@
 # Sorted_Stack_ADT
 A project completed in my CS122 Data Structures Class
+
+
+In the project, I implemented the use of a sorted stack that performed some operations. These operations were performed through methods in a C++ class. The methods are push, that puts a new item on the stack, pop, that removes and returns the lowest item from the stack, peek, that returns the lowest item from the stack only, getSize, that returns the number of elements on the stack and isEmpty, that returns true if the stack is empty and false otherwise. The sorted stack was implemented using a special kind of binary tree. In the tree, every node was smaller than its children and the tree was represented as an array without any "gaps" in the array. These rules caused me to create my pop and push methods carefully as the binary tree structure was always supposed to be designed in accordance with these rules. I added additional methods such as print which displayed the nodes of the tree in the shape of a tree, and a destructor, a constructor, and other private methods to increase the capacity of the tree, if necessary.
